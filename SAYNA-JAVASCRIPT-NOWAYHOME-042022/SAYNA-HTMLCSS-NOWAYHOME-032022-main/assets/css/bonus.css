@@ -1,0 +1,97 @@
+:root {
+    --primary-ad-color: #b11313;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+}
+
+
+/*compte à rebours*/
+
+#comptearebours {
+    border: 1px solid gainsboro;
+    background-color: #eee;
+    margin-left: 70%;
+    text-align: center;
+}
+
+#comptearebours h1,
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: smaller;
+    text-align: center;
+}
+
+#countdown {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid gainsboro;
+    background-color: #eee;
+    margin: 1% 15% 1% 10%;
+    text-align: center;
+    padding: 30px;
+}
+
+#countdown em {
+    color: #000000;
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+
+#countdown #days {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countdown #hours {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countdown #minutes {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#countdown #seconds {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* La partie Hero de la page Bonus */
+
+#hero {
+    background-image: url("../img/img35.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .box {
+    top: 55%;
+}
+
+
+/* Mobile version footer2 page Bonus */
+
+@media screen and (max-width:600px) {
+    .conteneur {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .brand-mobile {
+        background-color: var(--primary-ad-color);
+        padding: 20px 40px;
+    }
+    .box {
+        padding-left: 40px;
+    }
+}
